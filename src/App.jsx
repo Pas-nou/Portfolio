@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
+
+import FoxComponent from './Components/FoxComponent'
+
 import './App.css'
+
+
 
 function App() {
 
   return (
     <>
-      <h1>Coucou</h1>
+      <FoxComponent />
     </>
   )
 }

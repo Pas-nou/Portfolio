@@ -1,18 +1,15 @@
-import { useState, Suspense } from 'react'
+import HomePage from './Pages/HomePage';
 
-import FoxComponent from './Components/FoxComponent'
-
+import './assets/CSS/HomePage.css'
 import './App.css'
-
-
 
 function App() {
 
   return (
-    <>
-      <FoxComponent />
-    </>
+      <div>
+        <HomePage />
+      </div>
   )
 }
 
-export default App
+export default App;

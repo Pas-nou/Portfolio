@@ -1,0 +1,15 @@
+.tail-img {
+    animation: tail-animation 5s infinite;
+    transform: rotate3d(30deg);
+}
+
+@keyframes tail-animation {
+    0%, 100%{
+        rotate: 0deg;
+        translate: -11px;
+    }
+    50%{
+        rotate: -10deg;
+    translate: 2px;
+    }
+}

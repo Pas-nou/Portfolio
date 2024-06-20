@@ -1,0 +1,253 @@
+body {
+    overflow: hidden;
+}
+
+.background-homepage {
+    background: linear-gradient(0deg, rgba(135, 181, 5, 0.10) 0%, rgba(135, 181, 5, 0.10) 100%), linear-gradient(180deg, #272105 0%, #090700 100%);
+    height: 100vh;
+}
+
+.background-container {
+    position: relative;
+}
+
+.particles-homepage {
+    height: 100vh;
+    opacity: 0.9;
+    background: url('../images/particles.gif');
+    mix-blend-mode: screen;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.noise-homepage {
+    height: 100vh;
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background: url('../images/noise.png');
+}
+
+.computer-homepage {
+    width: 1370px;
+    height: 40px;
+    position: absolute;
+    left: 275px;
+    top: 20px;
+}
+
+.display-computer-homepage {
+    width: 1156px;
+    height: 781px;
+    position: absolute;
+    left: 107px;
+    top: 0;
+}
+
+.underd-display-computer-homepage {
+    width: 1146px;
+    height: 27px;
+    position: absolute;
+    left: 5px;
+    top: 754px;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%);
+}
+
+.display-display-computer-homepage {
+    width: 1146px;
+    height: 749px;
+    border-radius: 24px 24px 0px 0px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%);
+}
+
+.innerframe-display-computer-homepage {
+    width: 1152px;
+    height: 779px;
+    border-radius: 27px 27px 0px 0px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%);
+}
+
+.outerframe-display-computer-homepage {
+    width: 1156px;
+    height: 781px;
+    border-radius: 29px 29px 0px 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%);
+    box-shadow: 0px 0px 1px 0.5px #AAA inset;
+}
+
+.screen-computer-homepage {
+    width: 1122px;
+    height: 725px;
+    position: absolute;
+    left: 124px;
+    top: 17px;
+}
+
+.case-computer-homepage {
+    width: 1370px;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    top: 781px;
+}
+
+.rightpedestal-case-computer-homepage {
+    width: 82px;
+    height: 6px;
+    background: url('../images/rightPedestal.svg');
+    position: absolute;
+    left: 65px;
+    top: 48px;
+}
+
+.leftpedestal-case-computer-homepage {
+    width: 82px;
+    height: 6px;
+    background: url('../images/leftPedestal.svg');
+    position: absolute;
+    left: 1223px;
+    top: 48px;
+}
+
+.handle-case-computer-homepage {
+    width: 210px;
+    height: 15px;
+    border-radius: 0px 0px 18px 18px;
+    position: absolute;
+    left: 580px;
+    top: 0;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%), linear-gradient(180deg, rgba(133, 134, 136, 0.00) 0%, rgba(115, 116, 121, 0.70) 65.1%, rgba(183, 184, 189, 0.70) 92.71%, rgba(133, 134, 136, 0.70) 100%), linear-gradient(90deg, #A0A1A5 0%, #D3D4D9 1.82%, #6A6B70 5.73%, #797A7F 8.71%, #A8A9AE 21.38%, #A8A9AE 78.7%, #797A7F 91.76%, #6A6B70 94.67%, #D3D4D9 97.81%, #A0A1A5 100%);
+    box-shadow: 0px -2px 2px 0px rgba(255, 255, 255, 0.40) inset, -4px 0px 6px -3px #000 inset, 4px 0px 6px -3px #000 inset;
+}
+
+.base-case-computer-homepage {
+    width: 1370px;
+    height: 48px;
+    border-radius: 2px 2px 25px 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #38300B 0%, #1C1704 100%), linear-gradient(180deg, rgba(133, 134, 136, 0.00) 0%, rgba(115, 116, 121, 0.70) 65.1%, rgba(183, 184, 189, 0.70) 92.71%, rgba(133, 134, 136, 0.70) 100%), linear-gradient(90deg, #A0A1A5 0%, #D3D4D9 1.82%, #6A6B70 5.73%, #797A7F 8.71%, #A8A9AE 21.38%, #A8A9AE 78.7%, #797A7F 91.76%, #6A6B70 94.67%, #D3D4D9 97.81%, #A0A1A5 100%);
+    box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.36) inset;
+}
+
+.notch-screen-computer-homepage {
+    width: 142px;
+    height: 20px;
+    position: absolute;
+    left: 490px;
+    top: 0;
+    background: url('../images/Notch.svg');
+}
+
+.informations-screen-computer-homepage {
+    width: 1122px;
+    height: 725px;
+    border-radius: 14px 14px 1px 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F9DA4A;
+}
+
+.desk-homepage {
+    width: 100%;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    top: 856px;
+    background-color: #262006;
+}
+
+.smoke-homepage{
+    position: absolute;
+    left: 1630px;
+    top: 450px;
+}
+
+.mug-homepage {
+    width: 289px;
+    height: 267px;
+    position: absolute;
+    left: 1586px;
+    top: 588px;
+    background: url('../images/MUG.png');
+    
+}
+
+.cat-homepage {
+    width: 1020px;
+    height: 834px;
+    position: absolute;
+    left: 455px;
+    top: 332px;
+}
+
+.body-cat-homepage {
+    position: absolute;
+    left: 270px;
+    top: 107px;
+}
+
+.head-cat-homepage {
+    width: 427px;
+    height: 425px;
+    background: url('../images/HEAD_WHITE.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 234px;
+    left: 0;
+}
+
+.tail-cat-homepage {
+    transform: scaleX(-1);
+    position: absolute;
+    left: 905px;
+    top: 228px;
+}
+
+.nose-cat-homepage {
+    position: absolute;
+    left: 190px;
+    top: 390px;
+}
+
+.eyes-cat-homepage{
+    position: absolute;
+    left: 125px;
+    top: 335px;
+}
+
+.mustaches-cat-homepage {
+    position: absolute;
+    left: -35px;
+    top: 335px;
+}
+
+.ear-right-cat-homepage {
+    position: absolute;
+    left: 220px;
+    top: 200px;
+}
+
+.ear-left-cat-homepage {
+    position: absolute;
+    left: 40px;
+    top: 200px;
+}

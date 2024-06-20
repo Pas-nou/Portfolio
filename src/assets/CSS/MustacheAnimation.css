@@ -1,0 +1,12 @@
+.mustaches-img {
+    animation: mustaches-animation 7s infinite;
+}
+
+@keyframes mustaches-animation {
+    0%, 100% {
+        translate: 10px 10px;
+    }
+    50% {
+        translate: -10px -10px;
+    }
+}

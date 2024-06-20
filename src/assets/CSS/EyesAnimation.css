@@ -1,0 +1,12 @@
+.eyes-img {
+    animation: eyes-animation 7s infinite;
+}
+
+@keyframes eyes-animation {
+    0%, 100% {
+        translate: 10px 10px;
+    }
+    50% {
+        translate: -10px -10px;
+    }
+}

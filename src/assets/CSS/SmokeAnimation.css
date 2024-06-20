@@ -1,0 +1,45 @@
+.smoke-img {
+    animation: smoke-animation 5s linear infinite;
+}
+
+@keyframes smoke-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-250);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(-100);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-50%);
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes fade-animation {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

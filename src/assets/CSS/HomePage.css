@@ -61,7 +61,7 @@ body {
 
 .desk-homepage {
     min-width: 100%;
-    max-height: 90px;
+    max-height: 55px;
     position: absolute;
     bottom: 0;
     object-fit: cover;

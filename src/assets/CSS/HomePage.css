@@ -18,23 +18,27 @@ body {
     overflow: hidden;
 }
 
-/* * ---- Background Part ---- */
+/* * ---- Global Container ---- */
 
 .homepage-container {
     background: linear-gradient(0deg, rgba(135, 181, 5, 0.10) 0%, rgba(135, 181, 5, 0.10) 100%), linear-gradient(180deg, #272105 0%, #090700 100%);
     min-height: 100vh;
+    position: relative;
 }
 
-.background-container {
+.global-image-container {
     position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
+    top: 0;
+    left: 0;
 }
+
+/* *-------------------------------------------------------------------- */
+
+/* * ---- Background Part ---- */
 
 .particles-homepage {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     opacity: 0.9;
     background: url('../images/particles.gif');
     mix-blend-mode: screen;
@@ -45,11 +49,11 @@ body {
 }
 
 .noise-homepage {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     opacity: 0.15;
     position: absolute;
-    left: 0;
+    top: 100%;
     bottom: 0;
     z-index: 4;
     background: url('../images/noise.png');
@@ -61,13 +65,11 @@ body {
 
 .desk-homepage {
     min-width: 100%;
-    max-height: 55px;
     position: absolute;
-    bottom: 0;
-    object-fit: cover;
+    bottom: -5%;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .desk-homepage {
         height: 107px;
         object-fit: none;
@@ -100,31 +102,32 @@ body {
         height: 80px;
         object-fit: none;
     }
-}
+} */
 
 /* *-------------------------------------------------------------------- */
 
 /* * ----- Computer Part ----- */
 
 .computer-homepage {
+    position: absolute;
+    transform: translate(50vw, 1.4vh);
     display: flex;
     justify-content: center;
 }
 
 .computer-homepage-image {
     position: absolute;
-    top: 20px;
 }
 
 .homepage-title {
-    font-size: 60px;
+    font-size: 80px;
     color: white;
-    top: 290px;
+    top: 18vh;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     z-index: 1;
 }
 
@@ -141,7 +144,7 @@ body {
     font-family: Romantic-Signature;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .computer-homepage-image {
         width: 80%;
         height: 80%;
@@ -216,7 +219,7 @@ body {
         font-family: 'Abrosia';
         font-size: 25px;
     }
-}
+} */
 
 /* *-------------------------------------------------------------------- */
 
@@ -224,11 +227,9 @@ body {
 
 .mug-homepage {
     position: absolute;
-    top: 588px;
-    left: 1610px;
+    transform: translate(84vw, 64vh);
 }
-
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .mug-homepage {
         max-width: 20%;
         height: 20%;
@@ -271,7 +272,7 @@ body {
         top: 597px;
         left: 399px;
     }
-}
+} */
 
 /* *-------------------------------------------------------------------- */
 
@@ -279,11 +280,10 @@ body {
 
 .smoke-homepage {
     position: absolute;
-    top: 450px;
-    left: 1665px;
+    transform: translate(87vw, 55vh);
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .smoke-homepage {
         top: 500px;
         left: 1270px;
@@ -316,18 +316,15 @@ body {
         top: 530px;
         left: 405px;
     }
-}
+} */
 
 /* *-------------------------------------------------------------------- */
 
 /* * ----- Cat Part ----- */
 
 .cat-homepage {
-    width: 1020px;
-    height: 834px;
     position: absolute;
-    left: 455px;
-    top: 332px;
+    transform: translate(25vw, 35.7vh);
     z-index: 2;
 }
 
@@ -385,7 +382,7 @@ body {
     top: 200px;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .cat-homepage {
         transform: scale(0.9);
         top: 300px;
@@ -423,4 +420,88 @@ body {
         top: 244px;
         left: -265px;
     }
+} */
+
+/* *-------------------------------------------------------------------- */
+
+/* TODO ----- Medias Queries */
+
+@media screen and (max-width: 480px) {
+    .global-image-container {
+        transform: scale(0.25);
+        left: 35%;
+        top: 40%;
+    }
 }
+
+@media screen and (max-width: 1600px) and (min-width: 1440px) {
+    .global-image-container {
+        transform: scale(0.9);
+        top: 9.4%;
+    }
+
+    .computer-homepage {
+        transform: translate(50vw, 8.4vh);
+    }
+
+    .cat-homepage {
+        transform: translate(19vw, 40.3vh);
+    }
+
+    .smoke-homepage {
+        transform: translate(95.5vw, 57.5vh);
+    }
+
+    .mug-homepage {
+        transform: translate(92vw, 66.5vh);
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+    .global-image-container {
+        transform: scale(0.99);
+        top: 9.4%;
+        left: -5%;
+    }
+
+    .mug-homepage {
+        transform: translate(88vw, 59vh);
+    }
+
+    .smoke-homepage {
+        transform: translate(91.5vw, 50vh);
+    }
+
+    .computer-homepage {
+        transform: translate(50vw, 2.3vh);
+    }
+
+    .cat-homepage {
+        transform: translate(19vw, 33.3vh);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .global-image-container {
+        transform: scale(1);
+        top: -0.5%;
+        left: 0%;
+    }
+
+    .mug-homepage {
+        transform: translate(84vw, 64.6vh);
+    }
+
+    .smoke-homepage {
+        transform: translate(91.5vw, 50vh);
+    }
+
+    .cat-homepage {
+        transform: translate(21vw, 36.4vh);
+    }
+}
+
+
+
+
+/* TODO-------------------------------------------------------------------- */

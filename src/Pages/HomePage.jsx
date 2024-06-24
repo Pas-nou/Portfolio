@@ -38,7 +38,11 @@ function HomePage() {
                 <section className="screen-computer-homepage">
                     <section className="informations-screen-computer-homepage">
                         <section className="notch-screen-computer-homepage" />
-                        {/* <h1>      Coucou</h1> */}
+                        <h1 className="homepage-title">
+                            <span className="homepage-font-1">Pascal Renou</span>
+                            <span className="homepage-font-2">|</span>
+                            <span className="homepage-font-3">Portfolio</span>
+                        </h1>
                     </section>
                 </section>
             </section>

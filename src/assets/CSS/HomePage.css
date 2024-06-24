@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'WorkforceCombine';
+    src: url('../fonts/Rocker-Squad.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: Romantic-Signature;
+    src: url('../fonts/Romantic-Signature.otf') format(truetype);
+}
+
+@font-face {
+    font-family: Abrosia;
+    src: url('../fonts/Abrosia.otf') format(truetype);
+}
+
 body {
     overflow: hidden;
 }
@@ -153,6 +168,30 @@ body {
     left: 490px;
     top: 0;
     background: url('../images/Notch.svg');
+}
+
+.homepage-title{
+    font-size: 60px;
+    color: white;
+    padding-top: 230px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.homepage-font-1{
+    font-family: 'WorkforceCombine';
+}
+
+.homepage-font-2 {
+    font-family: 'Abrosia';
+    font-size: 100px;
+}
+
+.homepage-font-3{
+    font-family: Romantic-Signature;
 }
 
 .informations-screen-computer-homepage {

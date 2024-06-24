@@ -16,7 +16,7 @@ function HomePage() {
             <SmokeAnimation className="smoke-homepage" />
 
             {/* * Mug */}
-            <img className="mug-homepage" src="../src/assets/images/MUG.svg" alt="" />
+            <img className="mug-homepage" src="../../assets/images/MUG.svg" alt="" />
 
             {/* * Computer */}
             <section className="computer-homepage">
@@ -25,11 +25,11 @@ function HomePage() {
                     <span className="homepage-font-2">|</span>
                     <span className="homepage-font-3">Portfolio</span>
                 </h1>
-                <img className="computer-homepage-image" src="../src/assets/images/MACBOOK_PRO.svg" alt="Computer" />
+                <img className="computer-homepage-image" src="../../assets/images/MACBOOK_PRO.svg" alt="Computer" />
             </section>
 
             {/* DESK */}
-            <img className="desk-homepage" src="../src/assets/images/DESK.svg" alt="desk" />
+            <img className="desk-homepage" src="../../assets/images/DESK.svg" alt="desk" />
 
             {/* * Cat */}
             <section className="cat-homepage">

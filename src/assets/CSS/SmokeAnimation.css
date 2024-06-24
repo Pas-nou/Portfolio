@@ -43,3 +43,12 @@
         opacity: 0;
     }
 }
+
+/* * - Media Queries - Responsive for 420px max screen */
+
+@media screen and (max-width: 420px) {
+    .smoke-img {
+        width: 45%;
+        height: 45%;
+    }
+}

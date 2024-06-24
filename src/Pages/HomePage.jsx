@@ -20,22 +20,19 @@ function HomePage() {
 
             {/* * Computer */}
             <section className="computer-homepage">
-
                 <section className="case-computer-homepage">
                     <section className="base-case-computer-homepage" />
                     <section className="handle-case-computer-homepage" />
                     <section className="rightpedestal-case-computer-homepage" />
                     <section className="leftpedestal-case-computer-homepage" />
                 </section>
-
-                <section className="display-computer-homepage">
+                {/* <section className="display-computer-homepage">
                     <section className="outerframe-display-computer-homepage" />
                     <section className="innerframe-display-computer-homepage" />
                     <section className="display-display-computer-homepage" />
                     <section className="underd-display-computer-homepage" />
-                </section>
-
-                <section className="screen-computer-homepage">
+                </section> */}
+                {/* <section className="screen-computer-homepage">
                     <section className="informations-screen-computer-homepage">
                         <section className="notch-screen-computer-homepage" />
                         <h1 className="homepage-title">
@@ -44,7 +41,7 @@ function HomePage() {
                             <span className="homepage-font-3">Portfolio</span>
                         </h1>
                     </section>
-                </section>
+                </section> */}
             </section>
 
             {/* DESK */}
@@ -52,7 +49,7 @@ function HomePage() {
             <section className="desk-homepage" />
 
             {/* * Cat */}
-            <section className="cat-homepage">
+            {/* <section className="cat-homepage">
                 <TailAnimation className="tail-cat-homepage" />
                 <BodyAnimation className="body-cat-homepage" />
                 <EarRightAnimation className="ear-right-cat-homepage" />
@@ -61,13 +58,13 @@ function HomePage() {
                 <MustacheAnimation className="mustaches-cat-homepage" />
                 <EyesAnimation className="eyes-cat-homepage" />
                 <NoseAnimation className="nose-cat-homepage" />
-            </section>
+            </section> */}
 
             {/* * Full screen */}
-            <section className="background-container">
+            {/* <section className="background-container">
                 <section className="particles-homepage" />
                 <section className="noise-homepage" />
-            </section>
+            </section> */}
 
 
         </section>

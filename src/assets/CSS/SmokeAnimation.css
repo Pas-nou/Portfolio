@@ -43,3 +43,33 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .smoke-img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .smoke-img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .smoke-img {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .smoke-img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .smoke-img {
+        width: 40%;
+    }
+}

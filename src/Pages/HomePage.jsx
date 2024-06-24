@@ -10,46 +10,26 @@ import EarLeftAnimation from "../Components/EarLeftAnimation";
 function HomePage() {
 
     return (
-        <section className="background-homepage">
+        <section className="homepage-container">
 
             {/* * Smoke */}
             <SmokeAnimation className="smoke-homepage" />
 
             {/* * Mug */}
-            <section className="mug-homepage" />
+            <img className="mug-homepage" src="../src/assets/images/MUG.svg" alt="" />
 
             {/* * Computer */}
             <section className="computer-homepage">
-
-                <section className="case-computer-homepage">
-                    <section className="base-case-computer-homepage" />
-                    <section className="handle-case-computer-homepage" />
-                    <section className="rightpedestal-case-computer-homepage" />
-                    <section className="leftpedestal-case-computer-homepage" />
-                </section>
-
-                <section className="display-computer-homepage">
-                    <section className="outerframe-display-computer-homepage" />
-                    <section className="innerframe-display-computer-homepage" />
-                    <section className="display-display-computer-homepage" />
-                    <section className="underd-display-computer-homepage" />
-                </section>
-
-                <section className="screen-computer-homepage">
-                    <section className="informations-screen-computer-homepage">
-                        <section className="notch-screen-computer-homepage" />
-                        <h1 className="homepage-title">
-                            <span className="homepage-font-1">Pascal Renou</span>
-                            <span className="homepage-font-2">|</span>
-                            <span className="homepage-font-3">Portfolio</span>
-                        </h1>
-                    </section>
-                </section>
+                <h1 className="homepage-title">
+                    <span className="homepage-font-1">Pascal Renou</span>
+                    <span className="homepage-font-2">|</span>
+                    <span className="homepage-font-3">Portfolio</span>
+                </h1>
+                <img className="computer-homepage-image" src="../src/assets/images/MACBOOK_PRO.svg" alt="Computer" />
             </section>
 
             {/* DESK */}
-            <section className="border-desk-homepage" />
-            <section className="desk-homepage" />
+            <img className="desk-homepage" src="../src/assets/images/DESK.svg" alt="desk" />
 
             {/* * Cat */}
             <section className="cat-homepage">

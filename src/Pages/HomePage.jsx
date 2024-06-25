@@ -11,7 +11,10 @@ function HomePage() {
 
     return (
         <section className="homepage-container">
+
+            {/* DESK */}
             <img className="desk-homepage" src="../../assets/images/DESK.svg" alt="desk" />
+            
             <section className="global-image-container">
 
                 {/* * Smoke */}
@@ -30,7 +33,6 @@ function HomePage() {
                     <img className="computer-homepage-image" src="../../assets/images/MACBOOK_PRO.svg" alt="Computer" />
                 </section>
 
-                {/* DESK */}
 
                 {/* * Cat */}
                 <section className="cat-homepage">

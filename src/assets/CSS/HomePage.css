@@ -69,41 +69,6 @@ body {
     bottom: -5%;
 }
 
-/* @media screen and (max-width: 1440px) {
-    .desk-homepage {
-        height: 107px;
-        object-fit: none;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .desk-homepage {
-        height: 90px;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 834px) {
-    .desk-homepage {
-        height: 107px;
-        object-fit: none;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .desk-homepage {
-        height: 90px;
-        object-fit: none;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .desk-homepage {
-        height: 80px;
-        object-fit: none;
-    }
-} */
-
 /* *-------------------------------------------------------------------- */
 
 /* * ----- Computer Part ----- */
@@ -144,83 +109,6 @@ body {
     font-family: Romantic-Signature;
 }
 
-/* @media screen and (max-width: 1440px) {
-    .computer-homepage-image {
-        width: 80%;
-        height: 80%;
-        top: 99px;
-    }
-
-    .homepage-title {
-        font-size: 55px;
-        top: 275px;
-        gap: 30px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .computer-homepage-image {
-        width: 75%;
-        height: 75%;
-        top: 196px;
-    }
-
-    .homepage-title {
-        font-size: 38px;
-        top: 400px;
-        gap: 10px;
-    }
-
-    .homepage-font-2 {
-        font-family: 'Abrosia';
-        font-size: 65px;
-    }
-}
-
-@media screen and (max-width: 834px) {
-    .computer-homepage-image {
-        width: 80%;
-        height: 80%;
-        top: 320px;
-    }
-
-    .homepage-title {
-        font-size: 34px;
-        top: 610px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .computer-homepage-image {
-        width: 75%;
-        height: 75%;
-        top: 34px;
-    }
-
-    .homepage-title {
-        font-size: 28px;
-        top: 120px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .computer-homepage-image {
-        width: 70%;
-        height: 70%;
-        top: 316px;
-    }
-
-    .homepage-title {
-        font-size: 16px;
-        top: 540px;
-    }
-
-    .homepage-font-2 {
-        font-family: 'Abrosia';
-        font-size: 25px;
-    }
-} */
-
 /* *-------------------------------------------------------------------- */
 
 /* * ----- Mug Part ----- */
@@ -229,50 +117,6 @@ body {
     position: absolute;
     transform: translate(84vw, 64vh);
 }
-/* @media screen and (max-width: 1440px) {
-    .mug-homepage {
-        max-width: 20%;
-        height: 20%;
-        top: 630px;
-        left: 1240px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .mug-homepage {
-        max-width: 15%;
-        height: 15%;
-        top: 618px;
-        left: 880px;
-    }
-}
-
-@media screen and (max-width: 834px) {
-    .mug-homepage {
-        max-width: 13%;
-        height: 13%;
-        top: 817px;
-        left: 725px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .mug-homepage {
-        max-width: 18%;
-        height: 18%;
-        top: 304px;
-        left: 658px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .mug-homepage {
-        max-width: 15%;
-        height: 15%;
-        top: 597px;
-        left: 399px;
-    }
-} */
 
 /* *-------------------------------------------------------------------- */
 
@@ -282,41 +126,6 @@ body {
     position: absolute;
     transform: translate(87vw, 55vh);
 }
-
-/* @media screen and (max-width: 1440px) {
-    .smoke-homepage {
-        top: 500px;
-        left: 1270px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .smoke-homepage {
-        top: 520px;
-        left: 895px;
-    }
-}
-
-@media screen and (max-width: 834px) {
-    .smoke-homepage {
-        top: 720px;
-        left: 735px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .smoke-homepage {
-        top: 200px;
-        left: 665px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .smoke-homepage {
-        top: 530px;
-        left: 405px;
-    }
-} */
 
 /* *-------------------------------------------------------------------- */
 
@@ -382,46 +191,6 @@ body {
     top: 200px;
 }
 
-/* @media screen and (max-width: 1440px) {
-    .cat-homepage {
-        transform: scale(0.9);
-        top: 300px;
-        left: 220px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cat-homepage {
-        transform: scale(0.6);
-        top: 265px;
-        left: 0;
-    }
-}
-
-@media screen and (max-width: 834px) {
-    .cat-homepage {
-        transform: scale(0.55);
-        top: 464px;
-        left: -99px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cat-homepage {
-        transform: scale(0.45);
-        top: -74px;
-        left: -115px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .cat-homepage {
-        transform: scale(0.25);
-        top: 244px;
-        left: -265px;
-    }
-} */
-
 /* *-------------------------------------------------------------------- */
 
 /* TODO ----- Medias Queries */
@@ -434,7 +203,11 @@ body {
     }
 }
 
-@media screen and (max-width: 1600px) and (min-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 1440px){
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1439px) {
     .global-image-container {
         transform: scale(0.9);
         top: 9.4%;
@@ -457,7 +230,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1920px) and (min-width: 1600px) {
+@media screen and (max-width: 1920px) and (min-width: 1599px) {
     .global-image-container {
         transform: scale(0.99);
         top: 9.4%;
@@ -481,27 +254,32 @@ body {
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
     .global-image-container {
-        transform: scale(1);
+        transform: scale(1.5);
         top: -0.5%;
-        left: 0%;
+        left: -30%;
     }
 
     .mug-homepage {
-        transform: translate(84vw, 64.6vh);
+        transform: translate(75vw, 45.1vh);
     }
 
     .smoke-homepage {
-        transform: translate(91.5vw, 50vh);
+        transform: translate(77vw, 35vh);
+    }
+
+    .computer-homepage {
+        transform: translate(50vw, 5.7vh);
+    }
+
+    .homepage-title {
+        top: 12vh;
     }
 
     .cat-homepage {
-        transform: translate(21vw, 36.4vh);
+        transform: translate(31vw, 27.3vh);
     }
 }
-
-
-
 
 /* TODO-------------------------------------------------------------------- */
